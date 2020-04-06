@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="1"
+        android:title="Add"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="setting"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_speak"
+        android:orderInCategory="2"
+        android:title="Speak"
+        android:icon="@drawable/ic_mic_none_black_24dp"
+        app:showAsAction="always" />
+
+</menu>
